@@ -10,9 +10,10 @@
 6. Настроить терминал (File - Settings - Tools - Terminal), например, выбрать C:\Program Files\Git\bin\bash.exe в строке Shell Path
 7. Зарегистрировать в Git ваши емейл и имя пользователя
 
-''''
-git config --global user.email "your_email@example.com" git config --global user.name "Your Name"
-''''
+````
+git config --global user.email "your_email@example.com"
+git config --global user.name "Your Name"
+````
 
 ***Публикация проекта на GitHub***
 
@@ -32,4 +33,3 @@ git config --global user.email "your_email@example.com" git config --global user
 1. Пишем новый функционал
 2. Делаем операцию commit - фиксация текущего состояния проекта на локальной машине (при этом на GitHub пока ничего не выгружается - там лежит старая версия проекта)
 3. Делаем операцию push - выгрузка текущих изменений в проекте на GitHub
-```
